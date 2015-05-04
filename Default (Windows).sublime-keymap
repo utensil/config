@@ -1,0 +1,6 @@
+[
+  { "keys": ["alt+left"], "command": "jump_back" },
+  { "keys": ["alt+right"], "command": "jump_forward" },
+  { "keys": ["alt+down"], "command": "goto_definition" },
+  { "keys": ["f12"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+]
