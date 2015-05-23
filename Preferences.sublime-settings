@@ -6,6 +6,7 @@
   "color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
   "detect_indentation": true,
   "fade_fold_buttons": false,
+  "#font_face, see https://github.com/i-tu/Hasklig#editor-support": "Fira Code",
   "font_face": "Fantasque Sans Mono",
   "font_size": 14,
   "highlight_line": true,
