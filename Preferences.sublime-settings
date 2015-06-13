@@ -1,5 +1,5 @@
 {
-  "#theme": "Cobalt2.sublime-theme",
+  "theme": "Material-Theme.sublime-theme",
   "auto_indent": true,
   "bold_folder_labels": true,
   "caret_style": "phase",
