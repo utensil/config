@@ -4,7 +4,7 @@ Installation
 Go to https://packagecontrol.io/installation to install **Package Control** and use "Package Control: Advanced Install Package":
 
 ```
-ConvertToUTF8,Railscasts Extended,Terminal,Terminality,SideBarEnhancements,Markdown Extended,Table Editor,Markdown Preview,SublimeAStyleFormatter,JavaScriptNext - ES6 Syntax,JSX,JsFormat,phpfmt,Theme - Cobalt2,Sublimerge Pro
+ConvertToUTF8,Railscasts Extended,Terminal,Terminality,SideBarEnhancements,Markdown Extended,Table Editor,Markdown Preview,SublimeAStyleFormatter,JavaScriptNext - ES6 Syntax,JSX,JsFormat,phpfmt,Material Theme
 ```
 
 Package Control Messages
@@ -449,4 +449,3 @@ Sublimerge Pro:
   
   For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com
   
-
