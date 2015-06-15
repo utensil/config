@@ -449,3 +449,38 @@ Sublimerge Pro:
   
   For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com
   
+  Material Theme:
+--------------
+
+  ___  ___      _            _       _     _____ _
+  |  \/  |     | |          (_)     | |   |_   _| |
+  | .  . | __ _| |_ ___ _ __ _  __ _| |     | | | |__   ___ _ __ ___   ___
+  | |\/| |/ _` | __/ _ \ '__| |/ _` | |     | | | '_ \ / _ \ '_ ` _ \ / _ \
+  | |  | | (_| | ||  __/ |  | | (_| | |     | | | | | |  __/ | | | | |  __/
+  \_|  |_/\__,_|\__\___|_|  |_|\__,_|_|     \_/ |_| |_|\___|_| |_| |_|\___|
+  
+  Material Theme for Sublime Text 3
+  https://github.com/equinusocio/material-theme
+  
+  ********************************************************************************
+  
+  
+  To activate this awesome theme, add in your current settings this code:
+  
+  {
+    "theme": "Material-Theme.sublime-theme",
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  }
+  
+  
+  MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
+  
+  ********************************************************************************
+  
+  
+  You can set the alternative darker (panels) version with this:
+  
+  {
+    "theme": "Material-Theme-Darker.sublime-theme",
+  }
+  
