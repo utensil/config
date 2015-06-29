@@ -1,0 +1,3 @@
+# Add the following if Atom is runing behind proxy, see https://github.com/atom/atom/issues/1807
+# proxy = http://HOST:PORT
+# strict-ssl = false
