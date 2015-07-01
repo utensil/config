@@ -1,0 +1,14 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "railscast-theme"
+    ]
+  editor:
+    softWrap: true
+  "atom-terminal":
+    surpressDirectoryArgument: false
+  minimap:
+    absoluteMode: true
