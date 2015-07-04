@@ -1,6 +1,8 @@
 advanced-open-file@0.7.2
 atom-beautify@0.28.7
 atom-terminal@0.8.0
+atom-terminal-panel@4.4.4
+clang-format@1.14.0
 clipboard-history@0.6.6
 color-picker@2.0.7
 convert-to-utf8@0.2.4
@@ -11,10 +13,15 @@ emmet@2.3.11
 file-icons@1.5.8
 hex@0.6.2
 javascript-snippets@1.0.0
+jsformat@0.9.0
+language-babel@0.8.1
 linter@1.1.0
 local-history@3.2.3
+markdown-table-formatter@2.5.2
+markdown-writer@1.4.0
 minimap@4.10.1
 pigments@0.8.2
+pretty-json@0.4.1
 project-manager@1.15.10
 rails-snippets@1.10.0
 railscast-theme@0.3.0
