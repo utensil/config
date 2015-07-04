@@ -12,3 +12,6 @@
     surpressDirectoryArgument: false
   minimap:
     absoluteMode: true
+  "file-types":
+    "jade.tag": "source.jade",
+    "tag": "text.html"
