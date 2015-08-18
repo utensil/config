@@ -14,10 +14,12 @@ editorconfig@1.0.1
 emmet@2.3.12
 file-icons@1.5.8
 file-types@0.4.1
+goto@1.7.1
 hex@0.6.2
 javascript-snippets@1.0.0
 jsformat@0.9.0
 language-babel@0.9.1
+last-cursor-position@0.9.0
 linter@1.1.0
 local-history@3.2.3
 markdown-table-formatter@2.5.2
@@ -37,3 +39,4 @@ todo-show@0.13.0
 tortoise-svn@0.4.2
 uglify@1.2.3
 wrap@0.1.0
+
