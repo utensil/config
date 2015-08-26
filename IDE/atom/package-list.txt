@@ -1,7 +1,6 @@
 AtomicChar@0.3.8
 Sublime-Style-Column-Selection@1.3.0
 advanced-open-file@0.8.2
-archive-view@0.60.0
 atom-beautify@0.28.11
 atom-ctags@4.2.0
 atom-jade@0.3.0
