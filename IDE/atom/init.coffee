@@ -1,5 +1,7 @@
 gbk_paths = [
-  /_proj/
+]
+
+gbk_exclude_path = [
 ]
 
 atom.workspace.onDidOpen (event) ->
@@ -7,5 +9,7 @@ atom.workspace.onDidOpen (event) ->
   path = event.uri
   gbk_paths.forEach (regex) ->
     if regex.test(path)
-      console.log "#{path} matches #{regex}, set encoding to GBK"
-      editor.setEncoding('gbk')
+      gbk_exclude_path.forEach (exclude_regex) ->
+        unless exclude_regex.test(path)
+          console.log "#{path} matches #{regex}, set encoding to GBK"
+          editor.setEncoding('gbk')
