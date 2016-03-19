@@ -5,26 +5,23 @@ Basics
 -----------
 
 ```
-sudo apt-get update
-sudo apt-add-repository ppa:ubuntu-on-rails/ppa
-sudo apt-get install gedit-gmate
-sudo apt-get install vim
-sudo apt-get install curl
-sudo apt-get install ruby1.9.1
-sudo apt-get install ruby1.9.1-dev
-sudo apt-get install ruby-rvm
+apt-get --quiet --yes update
 
-rvm install 1.9.2
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt-get -f install
+
+yes|sudo apt-get install gedit-gmate vim curl git build-essential libssl-dev
+
+# https://rvm.io/
+# https://github.com/creationix/nvm
 
 sudo apt-get install mysql-client mysql-server libmysqlclient-dev
 sudo apt-get install openssh-client openssh-server
-sudo apt-get install git
 sudo apt-get install sqlite3 libsqlite3-dev
 sudo apt-get install libpq-dev
-
 sudo apt-get install libxml2-dev
 sudo apt-get install libxslt1-dev
-sudo gem install thin
 
 gem sources --remove http://rubygems.org/
 gem sources -a http://ruby.taobao.org/
