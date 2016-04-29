@@ -310,6 +310,9 @@ __dev_prompt() {
     local prompt_secs="$(__secs_since_prompt)" 
     if [ -n "$prompt_secs" ] && [ 30 -lt $prompt_secs ]; then
       show_info=true
+    else if history|tail -n 1|grep cd|grep -v grep > /dev/null 2>&1; then
+      show_info=true
+    fi;
     fi
 
     # setup marker that acts off of last exit code
