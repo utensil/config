@@ -315,8 +315,10 @@ __dev_prompt() {
     fi
     
     local git_status_info=""
+    local show_git_status_info=false
     if history|tail -n 1|grep git|grep -E "add|commit|push"|grep -v grep > /dev/null 2>&1; then
-      git_status_info="\n`git status`\n"
+      git_status_info="\n`git status`"
+      show_git_status_info=true
     fi
 
     # setup marker that acts off of last exit code
@@ -334,9 +336,11 @@ __dev_prompt() {
     PS1="${dir} ${marker} "
 
     if [ true = $show_info ]; then
-      PS1="\u ${full_dir}${branch_status} → ${git_status_info}${timing} ${marker} "
+      PS1="\u ${full_dir}${branch_status} → ${git_status_info}\n${timing} ${marker} "
+    elif [ true = $show_git_status_info ]; then
+      PS1="${git_status_info}\n${dir} ${marker} " 
     fi
-    
+
     date +%s > /tmp/__exported_last_prompt_time
 }
 
