@@ -6,6 +6,7 @@ atom-terminal
 atom-terminal-panel
 AtomicChar
 clang-format
+language-cmake
 clipboard-history
 clipboard-plus
 color-picker
