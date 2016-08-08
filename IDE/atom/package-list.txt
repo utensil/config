@@ -1,12 +1,11 @@
+AtomicChar
 advanced-open-file
 atom-beautify
 atom-ctags
 atom-jade
 atom-terminal
 atom-terminal-panel
-AtomicChar
 clang-format
-language-cmake
 clipboard-history
 clipboard-plus
 color-picker
@@ -22,9 +21,14 @@ goto
 hex
 highlight-selected
 imdone-atom
+ink
 javascript-snippets
 jsformat
+julia-client
 language-babel
+language-cmake
+language-julia
+language-pug
 language-vue
 last-cursor-position
 latex-completions
@@ -34,6 +38,7 @@ markdown-table-formatter
 markdown-writer
 minimap
 pigments
+plantuml-viewer
 pretty-json
 project-manager
 quick-editor
@@ -46,6 +51,7 @@ symbol-gen
 symbols-tree-view
 terminal-status
 todo-show
+tool-bar
 tortoise-svn
 uber-juno
 uglify
