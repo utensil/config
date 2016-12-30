@@ -2,12 +2,25 @@
   welcome:
     showOnStartup: false
   core:
+    disabledPackages: [
+      "clang-format"
+      "AtomicChar"
+      "markdown-table-formatter"
+      "wrap"
+      "atom-ctags"
+      "terminal-status"
+      "atom-terminal-panel"
+    ]
     themes: [
       "atom-dark-ui"
       "railscast-theme"
     ]
   editor:
     softWrap: true
+    showInvisibles: true
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
   "atom-terminal":
     surpressDirectoryArgument: false
   minimap:
