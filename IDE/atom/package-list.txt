@@ -17,7 +17,6 @@ emmet
 expose
 file-icons
 file-types
-goto
 hex
 highlight-selected
 imdone-atom
