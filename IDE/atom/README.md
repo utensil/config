@@ -19,6 +19,6 @@ Usage
 ### How to export and import `package-list.txt` ?
 
 ```
-apm list --installed --bare > package-list.txt
+apm list --installed --bare|sort|sed -e 's/@.*//g' > package-list.txt
 apm install --packages-file package-list.txt
 ```
