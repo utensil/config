@@ -1,10 +1,11 @@
+
 gbk_paths = [
 ]
 
 gbk_exclude_path = [
 ]
 
-# console.debug(atom.workspace.getTextEditors())
+console.debug(atom.workspace.getTextEditors())
 
 set_encoding_for = (editor, path) ->
   gbk_paths.forEach (regex) ->
@@ -18,11 +19,27 @@ set_encoding_for = (editor, path) ->
         console.info "#{path} matches #{regex}, set encoding to GBK"
         editor.setEncoding('gbk')
 
-atom.workspace.getTextEditors().forEach (editor) ->
+set_encoding = (editor) ->
   path = editor.getPath()
-  set_encoding_for(editor, path)
+  setTimeout () ->
+    set_encoding_for(editor, path)
+  , 50
 
-atom.workspace.onDidOpen (event) ->
-  # editor = event.item
-  path = event.uri
-  set_encoding_for(editor, path)
+atom.workspace.getTextEditors().forEach (editor) ->
+  set_encoding(editor)
+
+atom.workspace.observeTextEditors (editor) ->
+  set_encoding(editor)
+
+atom.workspace.onDidChangeActivePaneItem (item) ->
+  if item.editorElement
+    editor = item
+    set_encoding(editor)
+
+#
+# atom.workspace.onDidOpen (event) ->
+#   editor = event.item
+#   path = event.uri
+#   setTimeout () ->
+#     set_encoding_for(editor, path)
+#   , 500
