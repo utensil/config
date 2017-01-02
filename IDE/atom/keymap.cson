@@ -1,2 +1,14 @@
 'atom-workspace':
   'alt-t': 'atom-terminal:open'
+  # original: cmd-shift-e
+  'alt-e': 'expose:toggle'
+'.platform-darwin atom-text-editor':
+  # generate the CTags file
+  # original: cmd-alt-g
+  'cmd-g': 'symbol-gen:generate'
+  # original: cmd-alt-down
+  'cmd-down': 'symbols-view:go-to-declaration'
+  # original: cmd-alt-up
+  'cmd-up': 'symbols-view:return-from-declaration'
+  'cmd-left': 'linter:lint'
+  'cmd-right': 'linter:next-error'

@@ -18,6 +18,13 @@
   editor:
     softWrap: true
     showInvisibles: true
+  fonts:
+    # http://app.programmingfonts.org/
+    # fontFamily: "Source Code Pro"
+    fontFamily: "FiraCode"
+    # fontFamily: "Fantasque Sans Mono"
+    # fontFamily: "DejaVu Mono"
+    # fontFamily: "Iosevka"
   "symbols-tree-view":
     autoHide: true
     autoToggle: true

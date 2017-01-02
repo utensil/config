@@ -22,3 +22,9 @@ Usage
 apm list --installed --bare|sort|sed -e 's/@.*//g' > package-list.txt
 apm install --packages-file package-list.txt
 ```
+
+### How to navigate through symbols
+
+* `cmd-alt-g/ctrl-alt-g` to generate the CTags file
+* `cmd-down` to go to declaration
+* `cmd-alt-up/ctrl-alt-up` to return from declaration
