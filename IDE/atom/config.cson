@@ -1,4 +1,11 @@
 "*":
+  "Sublime-Style-Column-Selection":
+    mouseButtonTrigger: "Middle"
+    selectKeyTrigger: "None"
+    # default is Alt+Left
+    # "Sublime-Style-Column-Selection": {}
+  pigments:
+    markerType: "background"
   welcome:
     showOnStartup: false
   core:
