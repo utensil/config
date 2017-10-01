@@ -3,6 +3,7 @@
     //"http.proxy": "",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
+    // http://app.programmingfonts.org/
     "editor.fontFamily": "Fira Code, Fantasque Sans Mono, DejaVu Mono, Consolas, 'Courier New', monospace, Microsoft YaHei",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
