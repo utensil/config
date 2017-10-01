@@ -1,5 +1,14 @@
 // 将键绑定放入此文件中以覆盖默认值
 [
     { "key": "alt+left",              "command": "workbench.action.navigateBack" },
-    { "key": "alt+right",             "command": "workbench.action.navigateForward" }
+    { "key": "alt+right",             "command": "workbench.action.navigateForward" },
+    { "key": "alt+`",                "command": "workbench.action.terminal.toggleTerminal" },
+    { "key": "ctrl+shift+`",          "command": "workbench.action.terminal.new" },
+    { "key": "ctrl+shift+c",          "command": "workbench.action.terminal.openNativeConsole"},
+    { "key": "ctrl+1",                "command": "workbench.action.focusFirstEditorGroup" },
+    { "key": "ctrl+2",                "command": "workbench.action.focusSecondEditorGroup" },
+    { "key": "alt+z",                 "command": "editor.action.toggleWordWrap" },
+    { "key": "ctrl+numpad_add",       "command": "workbench.action.zoomIn" },
+    { "key": "ctrl+numpad_subtract",  "command": "workbench.action.zoomOut" },    
+    { "key": "ctrl+numpad0",          "command": "workbench.action.zoomReset" }
 ]
