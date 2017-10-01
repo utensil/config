@@ -1,0 +1,13 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    //"http.proxy": "",
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 18,
+    "workbench.colorTheme": "Railscasts"
+}
