@@ -36,7 +36,9 @@ HookyQR.beautify
 James-Yu.latex-workshop
 jinmingjian.sde
 lanmj2004.changeEncode
+mksafi.trailscasts
 mohsen1.prettify-json
+mrded.railscasts
 ms-vscode.cpptools
 msjsdiag.debugger-for-chrome
 octref.vetur
@@ -47,6 +49,7 @@ rebornix.Ruby
 redhat.java
 richie5um2.vscode-statusbar-json-path
 robertohuertasm.vscode-icons
+wmaurer.change-case
 xabikos.JavaScriptSnippets
 ```
 
