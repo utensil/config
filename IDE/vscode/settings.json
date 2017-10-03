@@ -33,3 +33,4 @@
     "terminal.integrated.fontSize": 12,
     // 控制终端保持在缓冲区的最大行数。
     "terminal.integrated.scrollback": 10000
+}
