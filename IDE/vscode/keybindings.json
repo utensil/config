@@ -10,5 +10,6 @@
     { "key": "alt+z",                 "command": "editor.action.toggleWordWrap" },
     { "key": "ctrl+numpad_add",       "command": "workbench.action.zoomIn" },
     { "key": "ctrl+numpad_subtract",  "command": "workbench.action.zoomOut" },    
-    { "key": "ctrl+numpad0",          "command": "workbench.action.zoomReset" }
+    { "key": "ctrl+numpad0",          "command": "workbench.action.zoomReset" },
+    { "key": "alt+v",                 "command": "workbench.action.maximizeEditor"}
 ]
