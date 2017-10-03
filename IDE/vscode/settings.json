@@ -3,17 +3,16 @@
     //"http.proxy": "",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
-    // http://app.programmingfonts.org/
     "editor.fontFamily": "Fira Code, Fantasque Sans Mono, DejaVu Mono, Consolas, 'Courier New', monospace, Microsoft YaHei",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "workbench.colorTheme": "Railscasts",
+    "workbench.colorTheme": "RailsCasts",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "files.autoGuessEncoding": true,
     "editor.smoothScrolling": true,
     "editor.colorDecorators": true,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     // Controls if quick suggestions should show up while typing
     "editor.quickSuggestions": true,
     // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
@@ -34,4 +33,3 @@
     "terminal.integrated.fontSize": 12,
     // 控制终端保持在缓冲区的最大行数。
     "terminal.integrated.scrollback": 10000
-}
