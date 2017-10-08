@@ -43,6 +43,7 @@ ms-vscode.cpptools
 msjsdiag.debugger-for-chrome
 octref.vetur
 octref.vscode-json-transform
+oderwat.indent-rainbow
 PaulOlteanu.theme-railscasts
 PeterJausovec.vscode-docker
 rebornix.Ruby
