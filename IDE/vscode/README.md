@@ -19,39 +19,11 @@ Features I Use
 [Extensions](https://code.visualstudio.com/docs/editor/extension-gallery)
 -----------------------------------------------------------------------------
 
-```
-> code --list-extensions
-akamud.vscode-theme-onedark
-anseki.vscode-color
-dbaeumer.vscode-eslint
-donjayamanne.githistory
-donjayamanne.python
-DotJoshJohnson.xml
-EditorConfig.EditorConfig
-eg2.tslint
-eg2.vscode-npm-script
-formulahendry.code-runner
-goessner.mdmath
-HookyQR.beautify
-James-Yu.latex-workshop
-jinmingjian.sde
-lanmj2004.changeEncode
-mksafi.trailscasts
-mohsen1.prettify-json
-mrded.railscasts
-ms-vscode.cpptools
-msjsdiag.debugger-for-chrome
-octref.vetur
-octref.vscode-json-transform
-oderwat.indent-rainbow
-PaulOlteanu.theme-railscasts
-PeterJausovec.vscode-docker
-rebornix.Ruby
-redhat.java
-richie5um2.vscode-statusbar-json-path
-robertohuertasm.vscode-icons
-wmaurer.change-case
-xabikos.JavaScriptSnippets
+How to export and import `extensions.txt` ?
+
+```bash
+code --list-extensions > extensions.txt
+cat extensions.txt|xargs -n 1 code --install-extension
 ```
 
 TODO: [Workspace Recommended Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
