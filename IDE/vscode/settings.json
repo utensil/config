@@ -31,6 +31,9 @@
     "terminal.integrated.fontLigatures": false,
     // 控制终端的字号(以像素为单位)。
     "terminal.integrated.fontSize": 12,
+    // 解决Windows下cmd中文乱码问题
+    "terminal.integrated.shellArgs.windows": ["/K", "chcp 65001"],    
     // 控制终端保持在缓冲区的最大行数。
-    "terminal.integrated.scrollback": 10000
+    "terminal.integrated.scrollback": 10000,
+    "docker.showExplorer": false
 }

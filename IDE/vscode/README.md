@@ -23,7 +23,9 @@ How to export and import `extensions.txt` ?
 
 ```bash
 code --list-extensions > extensions.txt
-cat extensions.txt|xargs -n 1 code --install-extension
+# Works on Linux, Mac.
+# Also works on Windows with Git for Windows (choose add unix tools to PATH) installed
+cat extensions.txt|sed -e 's/[\r\n ]//g'|xargs -n 1 code --install-extension
 ```
 
 TODO: [Workspace Recommended Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions)
