@@ -36,5 +36,46 @@
     "terminal.integrated.shellArgs.windows": ["/K", "chcp 65001"],    
     // 控制终端保持在缓冲区的最大行数。
     "terminal.integrated.scrollback": 10000,
-    "docker.showExplorer": false
+    "latex-workshop.latex.toolchain": [
+        {
+            "command": "xelatex",
+            "args": [
+                // "-synctex=1",
+                "-interaction=nonstopmode",
+                // "-file-line-error",
+                "%DOC%.tex"
+            ]
+        }
+    ],
+    "terminal.integrated.confirmOnExit": false,
+    // "cppcheck.cppcheckPath": "E:\\Cppcheck\\cppcheck.exe",
+    "c-cpp-flylint.cppcheck.standard": [
+        "c++11"
+    ],
+    "c-cpp-flylint.cppcheck.enable": true,
+    "c-cpp-flylint.cppcheck.language": "c++",
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.clang.enable": true,
+    "c-cpp-flylint.clang.executable": "clang++",
+    "c-cpp-flylint.clang.extraArgs": [
+        "--target=x86_64-w64-mingw -std=c++1z -x c++"
+    ],
+    "docker.showExplorer": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    // "workbench.panel.location": "bottom",
+    "markdown.preview.breaks": true,
+    "markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+    "markdown-preview-enhanced.mermaidTheme": "mermaid.forest.css",
+    "markdown-preview-enhanced.previewTheme": "vue.css",
+    "markdown-preview-enhanced.revealjsTheme": "sky.css",
+    "markdown.preview.fontFamily": "'FiraCode', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
+    "editor.accessibilitySupport": "off",
+    "materialTheme.fixIconsRunning": false,
+    "breadcrumbs.enabled": true
+    // "c-cpp-flylint.clang.standard": [
+    //     "c++17"
+    // ],
+    // "c-cpp-flylint.language": "c++",
+    // "c-cpp-flylint.clang.language": "c++",
+    // "cppcheck.language": "c++"
 }
