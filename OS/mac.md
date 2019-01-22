@@ -13,11 +13,14 @@ source ~/.bashrc
 
 # Install HomeBrew From https://brew.sh/
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# brew tap caskroom/cask
 
 # Install Misc
 brew install telnet
 
-# TODO Install Node and Python
+# Install Node and Python
+brew install python
+brew install node
 
 # Install Rust from https://rustup.rs/
 curl https://sh.rustup.rs -sSf |sh
@@ -32,15 +35,20 @@ xcode-select --install
 brew cask install android-platform-tools
 brew install android-ndk
 
-brew install node
-# brew install watchman
-
 # npm install -g react-native-cli
+
+brew cask install google-chrome
+brew cask install firefox
+brew cask install docker
+brew cask install iterm2
+brew cask install mounty
+brew cask install camtasia
+brew cask install haptic-touch-bar
+brew cask install microsoft-remote-desktop-beta
 ```
 
 Install
 
-- Chrome & Firefox
 - http://app.programmingfonts.org/
 - WPS for Mac
 - 搜狗输入法
