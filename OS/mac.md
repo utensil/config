@@ -22,6 +22,10 @@ brew install telnet
 brew install python
 brew install node
 
+# Set proxy for node
+# npm config set proxy $http_proxy
+# npm config set https-proxy $https_proxy
+
 # Install Rust from https://rustup.rs/
 curl https://sh.rustup.rs -sSf |sh
 # rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios
