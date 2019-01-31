@@ -1,7 +1,7 @@
 // 将设置放入此文件中以覆盖默认设置
 {
     //"http.proxy": "",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "window.zoomLevel": 0,
     // http://app.programmingfonts.org/
     "editor.fontFamily": "Fira Code, Fantasque Sans Mono, DejaVu Mono, Consolas, 'Courier New', monospace, Microsoft YaHei",
@@ -71,7 +71,11 @@
     "markdown.preview.fontFamily": "'FiraCode', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
     "editor.accessibilitySupport": "off",
     "materialTheme.fixIconsRunning": false,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "python.jediEnabled": false,
+    "terminal.integrated.rendererType": "dom",
+    "diffEditor.renderSideBySide": false,
+    "editor.formatOnType": true
     // "c-cpp-flylint.clang.standard": [
     //     "c++17"
     // ],
