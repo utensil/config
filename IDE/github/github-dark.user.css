@@ -1,0 +1,225 @@
+/* ==UserStyle==
+@name        GitHub Dark
+@namespace   StylishThemes
+@version     1.20.62
+@homepageURL https://github.com/StylishThemes/GitHub-Dark
+@updateURL   https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/master/github-dark.user.css
+@license     CC-BY-SA-4.0
+@author      StylishThemes
+@advanced color base-color "Base color scheme" #4183C4
+@advanced dropdown syntax-theme "Github syntax theme" {
+RailsCasts "RailsCasts" <<<EOT
+.highlight, .CodeMirror {
+  background-color: #1C1C1C !important;
+  color: #e6e1dc !important;
+}
+.blob-code, .blob-code-inner {
+  color: #e6e1dc !important;
+}
+.pl-c, .pl-c span{ color: #BC9458 !important; font-style: italic !important; } 
+.pl-c1 { color: #6d9cbe !important; } 
+.pl-cce { color: #6d9cbe !important; } 
+.pl-cn { color: #a5c261 !important; } 
+.pl-coc { color: #6d9cbe !important; } 
+.pl-cos { color: #cc7833 !important; } 
+.pl-e { color: #E8BF6A !important; } 
+.pl-ef { color: #a5c261 !important; } 
+.pl-en { color: #ffc66d !important; } 
+.pl-enc { color: #6d9cbe !important; } 
+.pl-enf { color: #a5c261 !important; } 
+.pl-enm { color: #a5c261 !important; } 
+.pl-ens { color: #6d9cbe !important; } 
+.pl-ent { color: #da4939 !important; } 
+.pl-entc { color: #a5c261 !important; } 
+.pl-enti { color: #a5c261 !important; font-weight: bold !important; } 
+.pl-entm { color: #a5c261 !important; } 
+.pl-eoa { color: #da4939 !important; } 
+.pl-eoac { color: #a5c261 !important; } 
+.pl-eoac .pl-pde { color: #a5c261 !important; } 
+.pl-eoai { color: #da4939 !important; } 
+.pl-eoai .pl-pde { color: #da4939 !important; } 
+.pl-eoi { color: #a5c261 !important; } 
+.pl-k { color: #CC7833 !important; } 
+.pl-ko { color: #da4939 !important; } 
+.pl-kolp { color: #da4939 !important; } 
+.pl-kos { color: #6d9cbe !important; } 
+.pl-kou { color: #6d9cbe !important; } 
+.pl-mai .pl-sf { color: #a5c261 !important; } 
+.pl-mb { color: #ffc66d !important; font-weight: bold !important; } 
+.pl-mc { color: #da4939 !important; } 
+.pl-mh .pl-pdh { color: #6d9cbe !important; } 
+.pl-mi { color: #da4939 !important; font-style: italic !important; } 
+.pl-ml { color: #ffc66d !important; } 
+.pl-mm { color: #a5c261 !important; } 
+.pl-mp { color: #6d9cbe !important; } 
+.pl-mp1 .pl-sf { color: #6d9cbe !important; } 
+.pl-mq { color: #6d9cbe !important; } 
+.pl-mr { color: #da4939 !important; } 
+.pl-ms { color: #da4939 !important; } 
+.pl-pdb { color: #ffc66d !important; font-weight: bold !important; } 
+.pl-pdc { color: #5a647e !important; font-style: italic !important; } 
+.pl-pdc1 { color: #b6b3eb !important; } 
+.pl-pde { color: #6d9cbe !important; } 
+.pl-pdi { color: #da4939 !important; font-style: italic !important; } 
+.pl-pds { color: #A5C261 !important; } 
+.pl-pdv { color: #a5c261 !important; } 
+.pl-pse { color: #6d9cbe !important; } 
+.pl-pse .pl-s2 { color: #6d9cbe !important; } 
+.pl-s { color: #A5C261 !important; } 
+.pl-s1 { color: #A5C261 !important; } 
+.pl-s2 { color: #e6e1dc !important; } 
+.pl-mp .pl-s3 { color: #6d9cbe !important; } 
+.pl-s3 { color: #da4939 !important; } 
+.pl-sc { color: #cc7833 !important; } 
+.pl-scp { color: #b6b3eb !important; } 
+.pl-sf { color: #cc7833 !important; } 
+.pl-smc { color: #da4939 !important; } 
+.pl-smi { color: #d0d0ff !important; } 
+.pl-smp { color: #da4939 !important; } 
+.pl-sok { color: #da4939 !important; } 
+.pl-sol { color: #ffc66d !important; } 
+.pl-som { color: #a5c261 !important; } 
+.pl-sr { color: #a5c261 !important; } 
+.pl-sra { color: #da4939 !important; } 
+.pl-src { color: #da4939 !important; } 
+.pl-sre { color: #da4939 !important; } 
+.pl-st { color: #6d9cbe !important; } 
+.pl-stj { color: #e6e1dc !important; } 
+.pl-stp { color: #6d9cbe !important; } 
+.pl-sv { color: #6d9cbe !important; } 
+.pl-v { color: #d0d0ff !important; } 
+.pl-vi { color: #6d9cbe !important; } 
+.pl-vo { color: #a5c261 !important; } 
+.pl-vpf { color: #6d9cbe !important; } 
+
+.pl-mi1 { color: #a5c261 !important; background: rgba(0, 64, 0, .5) !important; } 
+.pl-mdht { color: #a5c261 !important; background: rgba(0, 64, 0, .5) !important; } 
+.pl-md { color: #da4939 !important; background: rgba(64, 0, 0, .5) !important; } 
+.pl-mdhf { color: #da4939 !important; background: rgba(64, 0, 0, .5) !important; } 
+.pl-mdr { color: #6d9cbe !important; font-weight: normal !important; } 
+.pl-mdh { color: #a5c261 !important; font-weight: normal !important; } 
+.pl-mdi { color: #a5c261 !important; font-weight: normal !important; } 
+
+.pl-ib { background-color: #a5c261 !important; color: #272822 !important; } 
+.pl-id { background-color: #a5c261 !important; color: #272822 !important; } 
+.pl-ii, .pl-ii .pl-cce { background-color: #a5c261 !important; color: #272822 !important; } 
+.pl-iu { background-color: #a5c261 !important; color: #272822 !important; } 
+.pl-mo { color: #cc7833 !important; } 
+.pl-mri { color: #6d9cbe !important; } 
+.pl-ms1 { background-color: #cc7833 !important; } 
+.pl-va { color: #6d9cbe !important; } 
+.pl-vpu { color: #6d9cbe !important; } 
+.pl-entl { color: #cc7833 !important; }    
+
+.gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
+   background-color: #181818 !important;
+}
+
+.blob-code-deletion, .blob-code-addition {
+    background-color: #181818 !important;
+}
+
+EOT;
+}
+
+@advanced dropdown syntax-codemirror "CodeMirror syntax theme" {
+  RailsCasts "RailsCasts" <<<EOT
+  /*! CodeMirror: RailsCasts *\/
+.CodeMirror {background: #2b2b2b; color: #f4f1ed;}
+.CodeMirror-selected {background: #272935 !important;}
+.CodeMirror-gutters {background: #2b2b2b; border-right: 0px;}
+.CodeMirror-linenumber {color: #5a647e;background: #2b2b2b; }
+.CodeMirror-gutter.CodeMirror-linenumbers { background: #2b2b2b; }
+.cm-s-github-light .CodeMirror-gutters { background: #2b2b2b; }
+.CodeMirror-cursor {border-left: 1px solid #d4cfc9 !important;}
+.cm-comment {color: #bc9458;}
+.cm-atom {color: #b6b3eb;}
+.cm-number {color: #b6b3eb;}
+.cm-property, .cm-attribute {color: #a5c261;}
+.cm-qualifier {color: #e8bf6a;}
+.cm-keyword {color: #da4939;}
+.cm-string {color: #ffc66d;}
+.cm-variable {color: #a5c261;}
+.cm-variable-2 {color: #6d9cbe;}
+.cm-def {color: #cc7833;}
+.cm-error {background: #da4939; color: #d4cfc9;}
+.cm-bracket {color: #f4f1ed;}
+.cm-tag {color: #da4939;}
+.cm-link {color: #b6b3eb;}
+.CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
+.CodeMirror-activeline-background { background: #303040; }
+EOT;
+}
+@advanced text bg-choice "Background image [wrap in url()]" "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQVR4AWWXCY4cwXbE6h4JMhCvMPc/ov+3Ox9QsLCGpKlFHILd+UQ559AGDkBSFXWmomonqkL/XuUcIPUcONjHCJyE36KaqNiaRnVCG9TGpgIU9hIfohCBVGj24ammo04lU3Fy0NZDAyZi5AElHjgEGlRbG1WjraIt7TmADQkAaoEHsOXAAaeqat9RVTqjosyEH5W+DQCQt8BzIJMfXJI3e5tGRefSlRn3NrO3scnvNl26FN5RITGNfjm3GM/+FhQgnlQeImC+dEm8rzHVTNGL9EADVsTAIfGJBziRy7RlmcZU1IYpHIj+4JrWym8/XSwzompmFNVOFdTOAAfs61KZ6eXcp57fykQUOxNBmTesz2HpCnCg3UV/bA7VRpWGNqKtrYLTs0ilCjgxiZxjeLC5dDPBFn4Pn2ja6BRUL10DTgET4Focq8rn8casxV4E5tIlZvytqtfivCOKZrqc38G7egnkXecyPZdzubc57VtUnbfL+a0u3b1N3d9Mci7cKocHoh3xihLQ6fXUlgTOOfVkXSUFINoWHhqxE23RTmCqtoEJaITkIrUCkU9fnqpqm+40VSXS3CLaSzfGBb4rPuOSfN0ylLve6/jpcrbL2dTlnOdv5AamKjLvLN1XruMNS/cul/hx8twKpKYRaE2DOp8+c+lW7uVXVQ7Vx0x1G3HXjNocsHCac7NbWc6egwJVHu2kRTVNC2pqv2U4XNsv5/yWJlV9+NJ1C7xluInlcr7rK+Kg+qy7onQqgnbi7UHcS3qXjdw3bO5tumycYlVssMI5EXXpRnatPK362KodtVU60cm+eQT10sVLFwJYlVaf7UGSoi5dQF3DvnTX3UvXTPO8quKH7jsXhm/PxfKWZXqBM5sS33kmKtC31Q05fI095i5IPpyzRXqSy1Sr17p1F7NE8vMtnNbLpVVtk8c0OrfF0sKxHnIpYgHW4puMomTz8mgmrSjpvrxhX97l7LqLpl7bW9BH9/MNzF8XwRqL8/m7c30eFYV5VX3QTquK06XbLt16F4ks+8Z9m6gPtpcuk3OvibCekng4lzMHi9MoqZmKj9tdbQCbc7bcEA+oEJduRNNL1waf1tuI9MDBUK8t3k9uFz3rrqadO9Ln9TL/ezlwDvky3TW7ZmXfpc77TN0yhOXnP939LvVDV9s+tgLTm0TqYd1lea3PRFuVjLa562HdPbCfascGrvO3DMeIATVqVRO8vfHrbupdfo1dzlXUdkVLZsS1mLPG3rWcl+4B1l1537h0VXzU1tyLG7cCu+LSrSqo06hocy3WCcil65qHDbuEYzQN2HpT3jFt9LEFvHTP1nxbXOEkbhkKmd+6BTfVZ/I143z/Fyz6Za92o0I7I6gzfeYAHPwy/Rb43L9TLtMt8CtwW1xvQvbR1g9n7qJRNN1kdxcdH7cM58Szxq679MdLOhE72t6VNEpHHkzwRyjBcGth+dE99pIkVbWaEWmvnQ8Yl7Mp59zpRWXdNo6odrO754Zzvxf/010nP7onb1TR+bgbVPB9PcADJvH/043Kvk0UzLRxQ6UiaeTAcyxYl2lyrrvZv8v2wE7U1uVcST0821jJeIDKWuyxiqnuko7q3+zJYXJ46nV3D67EyL+lQ9F2qkr+3kUafQpwYE8T329p6y7OX1TF97fQv/c+l87zj7Hsgpig4qRLd9fMPs74rLGyCzRbhmVqpy7nqvPmTD1gvKe7b2U8u1QzmtuDuEtbgT3c8QBJveo6cueFkUwv59nVmfFw1jl4/unuOT9qERV76ers8n23z/c8/Xy7a4lwwLplmGusbRp33Up13+ZDN3KPxNVMhY62vUQyRTse6+cKHtZYjIfDh260Cjbb3Vy6R8H8SMBzqSwrsB1UTacoknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==)"
+@advanced dropdown bg-options "Background image type" {
+  Tiled "Tiled" <<<EOT
+  background-repeat: repeat !important;
+  background-size: auto !important;
+  background-position: left top !important; EOT;
+  Fit window size "Fit window size" <<<EOT
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center top !important; EOT;
+}
+@advanced dropdown bg-attachment "Background image attachment" {
+  Scroll "Scroll" <<<EOT
+  scroll EOT;
+  Fixed "Fixed" <<<EOT
+  fixed EOT;
+}
+@advanced dropdown tab-size "Code Tab size" {
+  2 "2" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 2 !important;
+    -moz-tab-size: 2 !important;
+  } EOT;
+  3 "3" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 3 !important;
+    -moz-tab-size: 3 !important;
+  } EOT;
+  4 "4" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 4 !important;
+    -moz-tab-size: 4 !important;
+  } EOT;
+  5 "5" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 5 !important;
+    -moz-tab-size: 5 !important;
+  } EOT;
+  6 "6" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 6 !important;
+    -moz-tab-size: 6 !important;
+  } EOT;
+  7 "7" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 7 !important;
+    -moz-tab-size: 7 !important;
+  } EOT;
+  8 "8" <<<EOT
+  pre, .highlight, .diff-table, .tab-size {
+    tab-size: 8 !important;
+    -moz-tab-size: 8 !important;
+  } EOT;
+}
+@advanced text font-choice "Code Font" "FiraCode"
+@advanced dropdown code-wrap "Code Wrap" {
+  nowrap "No Wrap" <<<EOT
+  EOT;
+  wrap "Wrap" <<<EOT
+  /* GitHub Bug: Enable wrapping of long code lines *\/
+  body:not(.nowrap) .blob-code-inner,
+  body:not(.nowrap) .markdown-body pre > code,
+  body:not(.nowrap) .markdown-body .highlight > pre {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+  }
+  body:not(.nowrap) td.blob-code-inner {
+    display: table-cell !important;
+  } EOT;
+}
+==/UserStyle== */
