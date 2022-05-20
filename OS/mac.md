@@ -45,8 +45,10 @@ curl https://sh.rustup.rs -sSf |sh
 # rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android
 # cargo install cargo-lipo
 
-# Install Lean 3 (based on HomeBrew for Rosetta if on M1)
-/usr/local/bin/brew install elan mathlibtools
+# Install Lean 3 
+brew install elan mathlibtools
+# Need to use HomeBrew for Rosetta if on M1
+# /usr/local/bin/brew install elan mathlibtools
 elan toolchain install stable 
 elan default stable
 
