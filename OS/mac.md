@@ -13,10 +13,17 @@ source ~/.bashrc
 
 # Install HomeBrew From https://brew.sh/
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# brew tap caskroom/cask
+# Install 
+# brew tap homebrew/cask
 
 # Install Development Tools
 xcode-select --install
+
+# Install HomeBrew for Rosetta if on M1
+# softwareupdate --install-rosetta
+# arch -x86_64 zsh
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 
 # Install CMake
 brew install cmake
@@ -38,11 +45,18 @@ curl https://sh.rustup.rs -sSf |sh
 # rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android
 # cargo install cargo-lipo
 
+# Install Lean 3 (based on HomeBrew for Rosetta if on M1)
+/usr/local/bin/brew install elan mathlibtools
+elan toolchain install stable 
+elan default stable
+
 # Install Android Dev Toolkit
 brew cask install android-platform-tools
 brew install android-ndk
 
 # npm install -g react-native-cli
+
+brew install --cask anaconda
 
 brew cask install google-chrome
 brew cask install firefox
