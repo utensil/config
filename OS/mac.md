@@ -48,6 +48,7 @@ curl https://sh.rustup.rs -sSf |sh
 # Install Lean 3 
 brew install elan mathlibtools
 # Need to use HomeBrew for Rosetta if on M1
+# See https://leanprover-community.github.io/install/macos.html#m1-macs--apple-silicon
 # /usr/local/bin/brew install elan mathlibtools
 elan toolchain install stable 
 elan default stable
